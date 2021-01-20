@@ -6,7 +6,6 @@ namespace Metotlar
     {
         static void Main(string[] args)
         {
-
             string urunAdi = "elma";
             double fiyati = 15;
             string aciklama = "Amasya elması";
@@ -55,6 +54,9 @@ namespace Metotlar
             sepetManager.Ekle2("Armut", "Yeşil", 12,2);
             sepetManager.Ekle2("Elma", "Deneme", 50,4);
             sepetManager.Ekle2("Karpuz", "Sarı", 12,10);
+
+            
         }
+        
     }
 }
